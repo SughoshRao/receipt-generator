@@ -17,7 +17,7 @@ $ bundle
 $ rspec
 ```
 
-4. Run script with one of the provided input csv files, or use your own
+4. Run script with one of the provided input csv files, or use your own. If you're using your own, please ensure the csv follows the same structure as the ones in the inputs folder.
 ```
 $ ruby -r ./bin/receipt_generator.rb -e "ReceiptGenerator.call 'inputs/input4.csv'"
 ```
